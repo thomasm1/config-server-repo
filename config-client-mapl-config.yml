@@ -1,6 +1,6 @@
 spring:
   application:
-    name: "client-mapl-config-server"
+    name: "mapl-config"
   profiles:
     # active: native
     active: git
@@ -12,7 +12,7 @@ spring:
         # search-locations: "file:///Users//thomasm1//Documents//config"
         git:
           uri: "https://github.com/thomasm1/config-server-repo.git"
-          default-label: main
+          #default-label: main
           timeout: 5
           clone-on-start: true
           force-pull: true
